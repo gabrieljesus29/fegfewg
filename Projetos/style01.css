@@ -1,0 +1,219 @@
+/* html{font-size: 62.5%;}
+p{
+    color: red;
+    background: yellow;
+    font-size: 2em;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0,2rem;
+    word-spacing: 0,5rem;
+    line-height: 2,5rem; */
+    /* text-align: right; */
+    /* text-decoration: underline;
+    text-indent: 5rem;
+    text-shadow: 2px 2px  5px black;
+    text-transform: capitalize;
+
+} */
+/* .pai1{color: brown;background-color: beige;text-align: center;text-shadow: 2px 2px  5px black}
+.pai01{color: brown;background-color: beige;text-align: center;text-shadow: 2px 2px  5px black}
+.pai2{color: brown;background-color: beige;text-align: center;text-shadow: 2px 2px  5px black}
+.pai3{color: brown;background-color: beige;text-align: center;text-shadow: 2px 2px  5px black}
+p{background: beige;} */
+/* 
+div{
+    width: 300px;
+    height: 300px;
+    background: red;
+    transition: 0.3s;
+}
+
+div:hover{
+    width: 300px;
+    height: 300px;
+    box-shadow: inset 2px 2px 5 px black, 2px 2px 2px ;
+} */
+
+/* background: red;
+width: 300%;
+max-width: 600px;
+margin: 0 auto;
+height: 200px;
+max-height: 500px;
+min-height: 0px;
+overflow: auto; 
+padding: 50px;
+border:5px solid ; */
+
+
+
+/* .card {
+    width: 250px;
+    padding: 20px;
+    background-color: #d0cfcf;
+    border: 2px solid #333;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+.hp {
+    font-size: 18px;
+    color: red;
+}
+
+
+.image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+    margin-top: 10px;
+}
+
+
+.type {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.attack {
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px;
+} */
+/* 
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #908a8a;
+    padding: 10px 20px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+.menu .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: yellow;
+}
+.menu a:hover {
+    color: red;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav {
+    background-color: #34495e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    border-bottom: 2px solid #34495e;
+    padding-bottom: 10px;
+    color: #2c3e50;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(33.33% - 20px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px 5px 0 0;
+}
+
+.card h3 {
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+.card p {
+    margin: 10px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    background: #2c3e50;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+

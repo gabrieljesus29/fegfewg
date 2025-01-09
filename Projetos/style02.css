@@ -1,0 +1,112 @@
+/* 
+.texto{
+    background: rgb(201, 199, 199);
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    height: 400px;
+    height: 400px;
+    max-height: 500px;
+    min-height: 0px;
+    padding: 50px;
+    border:5px solid ;
+    text-align: center;
+
+}
+h1{text-align: center;}
+p{text-align: center;}
+
+img{
+width: 100px;
+height:100px ;
+border-radius: 50%;
+box-sizing: border-box;
+border: 2px solid;
+
+}
+
+body{
+    height: 200%;
+}
+
+ */
+
+   /* display: inline; */
+    /* box-sizing: padding-box; */
+    
+
+    
+/* *{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.flex-conteiner{
+    align-content: flex-start;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    background-color: yellow;
+    align-items: flex-start;
+    height: 640px; */
+
+    /* flex-direction: row;     */
+    
+    
+    /* gap: 30px; */
+    
+    
+    /* width: 640px; */
+    
+
+/* } */
+/* .flex-item{
+    background-color: red;
+    width: 33,33%; */
+    /* height: 200px; */
+    /* margin: 10px; */
+    /* margin-bottom: 20px; */
+
+/* } */
+
+/* .flex-item:nth-child(3){
+    font-size: 40px;
+} */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.two-columns{
+    display: flex;
+}
+
+.col{
+    display:flex ;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(1, 255, 1);
+    margin: 15px;
+    padding: 30px;
+    font-size: 24px;
+}
+
+.gallery{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.img{
+    width: 33%;
+    height: 50px;
+    background: blue;
+    margin: 10px;
+    
+}

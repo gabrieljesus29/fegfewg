@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <section>
+        <h1>Formulário</h1>
+    </section>
+    <div class="borda1">  
+        <div class="borda1">  
+<b>-------------------------------------------- Dados Pessoais: --------------------------------------------</b>
+<p>
+    <label for="Nome">Nome:</label>
+    <input type="name">
+<br>
+    <label for="Endereço">Endereço: </label>
+     <input type="name">
+<br>
+<label for="Cidade">Cidade: </label>
+<input type="name">
+
+<br> <label for="select">Estado: </label>
+    <select name="Select">
+        <option value="Selecione" hidden>Natal</option>
+        <option value="Bahia"> Bahia</option>
+        <option value="Rio de Janeiro">Rio de Janeiro</option> 
+        <option value="Brasilia">Brasilia</option>
+        <option value="Minas Gerais">Minas Gerais</option>
+        <option value="Outro estado">Outro estado</option>
+    </select>
+<p>
+</div>
+<div class="borda1">    
+<p><b>-------------------------------------------- Dados Profissionais: --------------------------------------------</p></b>
+Natureza do cargo:
+<br>
+<input type="radio" name="cargo">
+<label for="Gerência">Gerência</label>
+<input type="radio">
+<label for="Financeiro">Financeiro</label>
+<input type="radio">
+<label for="Recepção">Recepção</label>
+<input type="radio">
+<label for="Administrativo">Administrativo</label>
+<input type="radio">
+<label for="Jurídico">Jurídico</label>
+</div>
+<div class="borda1"> 
+<p><b>-------------------------------------------- Área de Interesse: --------------------------------------------</b></p>
+<input type="checkbox" name="cargo">
+<label for="Computação">Computação</label>
+<input type="checkbox">
+<label for="Biologia">Biologia</label>
+<input type="checkbox">
+<label for="Meio Ambiente">Meio Ambiente</label>
+<input type="checkbox">
+<label for="Engenharia">Engenharia</label>
+<input type="checkbox">
+<label for="História">História</label>
+
+<p><label for="mini currículo">Mini-Currículo:</label>
+<textarea name="Mini-Currículo" rows="8" cols="50" ></textarea></p>
+
+<button>Enviar</button> <button>Resetar</button>
+</body>
+</html>
+
+<style>
+body {
+    text-align: center;  
+         
+}    
+
+    .borda1 {
+        border: 2px solid black;
+        padding: 20px;
+        margin: 10px;
+    }
+    
+</style>

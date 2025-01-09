@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    box-shadow: black;
+    overflow: hidden;
+    text-align: center;
+}
+.card img {
+    width: 50%;
+    height: 150px;
+    border: solid rgb(146, 3, 3);
+    border-radius: 250px;
+    object-fit:cover;
+}
+.info {
+    padding: 20px;
+}
+
+.info h2 {
+    font-size: 1.5rem;
+    color:white;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 18px;
+    text-align: justify;
+    color: white;
+    margin-bottom: 20px;
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.socials a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    transition: background-color 0.3s ease;
+}
+.socials a.facebook { background-color: rgb(3, 3, 157); }
+.socials a.x { background-color:black; }
+.socials a.instagram { background-color: rgb(156, 2, 123); }
+
+.action {
+    margin-bottom: 20px;
+}
+.action button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+.action button:hover {
+    background-color: #b34500;
+}

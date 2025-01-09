@@ -28,6 +28,12 @@
 //console.log(numeroTitulo)
 
 
+const nomes = ["Ti", "Ce", "Pe", "Gui"]
+for(let i=0; i< nomes.length-1; i++){
+    Texto.innerHTML += `<h1> ${nomes[i]} </h1>`
+}
+
+texto.innerHTML += `<p> ${nomes[3]} </p>`
 
 
 

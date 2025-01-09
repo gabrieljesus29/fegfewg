@@ -12,11 +12,22 @@
 
 //recebe mumero
 
-const numero= prompt("Digite um numero: ")
+//const numero= prompt("Digite um numero: ")
 
-const numeroTitulo = document.getElementById('numero-titulo')
-const texto = document.getElementById('texto')
+//const numeroTitulo = document.getElementById('numero-titulo')
+//const texto = document.getElementById('texto')
 
-numeroTitulo.innerHTML = numero
-texto.innerHTML = `<p> O número digitado foi ${numero} </p>`
+//numeroTitulo.innerHTML = numero
+
+//texto.innerHTML += `<p> O número digitado foi ${numero} </p>`
+//texto.innerHTML += `<p> Raiz quadrada: ${Math.pow(numero,0.5)} </p>`
+//texto.innerHTML += `<p> Arredondado para cima: ${Math.ceil(numero)} </p>`
+//texto.innerHTML += `<p> Arredondado para baixo: ${Math.floor(numero)} </p>`
+
+
 //console.log(numeroTitulo)
+
+
+
+
+

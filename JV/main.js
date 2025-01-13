@@ -140,11 +140,49 @@
 // }
 
 
-let a = 'C'
-let b = 'A'
-let c = 'B'
+// let a = 'C'
+// let b = 'A'
+// let c = 'B'
+// let aux = a
 
-a = b
-b = c
-c = a
-console.log(a,b,c)
+// a = b // a = 'A'
+// b = c // b = 'B'
+// c = aux // c = 'C'
+// console.log(a,b,c)
+
+
+// let nome_masculino = "Soraia da Silva"
+// let nome_feminino = "Leonardo Campos"
+// let todes = nome_masculino
+
+// nome_masculino = nome_feminino
+// nome_feminino = todes
+
+// console.log(nome_masculino, nome_feminino)
+
+//let a = 'A'
+//let b = 'B'
+//let c = 'C'
+
+// const letras = ['B', 'C', 'A']
+
+// let [a, b, c] = letras
+
+// console.log(a,b,c)
+
+
+//const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+//const primeiro_Numero = numeros[0]
+// const [primeiro_Numero, segundo_Numero, ...qualquercoisa] = numeros
+
+// console.log(primeiro_Numero)
+
+
+const nomes = ["Cesar", "Yan", "Pedro", "Guilherme", "Gabriel"]
+const sobrenomes = ["Figueiredo", "silva", "Vitor", "Vinicius", "Jesus"]
+
+let [nome] = nomes
+let [, sobrenome] = sobrenomes
+
+console.log(nome + sobrenome )

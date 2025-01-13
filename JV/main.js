@@ -28,12 +28,85 @@
 //console.log(numeroTitulo)
 
 
-const nomes = ["Ti", "Ce", "Pe", "Gui"]
-for(let i=0; i< nomes.length-1; i++){
-    Texto.innerHTML += `<h1> ${nomes[i]} </h1>`
-}
+//const nomes = ["Ti", "Ce", "Pe", "Gui"]
+//for(let i=0; i< nomes.length-1; i++){
+//    Texto.innerHTML += `<h1> ${nomes[i]} </h1>`
 
-texto.innerHTML += `<p> ${nomes[3]} </p>`
+//texto.innerHTML += `<p> ${nomes[3]} </p>`
 
 
+
+
+// Operadores lógicos
+
+//&& -> AND -> E 
+// || -> OR -> OU 
+// ! -> NOT -> NÃO
+
+
+//const usuario = 'programar123'
+//const senha = '123456'
+
+//const vaiLogar = usuario ==='programar123' && senha === '123456'
+
+//console.log(vaiLogar)
+
+// Operadores de curto circuito
+
+//console.log(true && false)
+console.log('Tiago' && 0 && 12)
+
+//FALSY false
+//0
+// '' "" ``
+// null / undefined
+//Nan
+
+//console.log("null" || "0" && false)
+
+//const corUsuario = null
+//const corUtilizada = corUsuario || 'preto'
+
+//console.log(corUtilizada)
+
+
+//const a = 0
+//const b = null
+//const c = 'false'
+//const d = false
+//const e = NaN
+//console.log(a || b || c || d || e )
+
+
+//const usuario = "Tiago"
+//const senha = 123456
+
+//if (usuario === 'Tiago' && senha === 123456){
+//    console.log('Usuario pode logar')}
+
+
+//const hora = 4
+
+//if (hora >= 6 && hora < 12){
+//    console.log('Bom dia')
+//} else if (hora >= 12 && hora <= 17){
+//    console.log('Boa tarde')
+//} else if (hora >= 18 && hora <= 23){
+//    console.log('Boa noite')
+//} else if ((hora >= 0 && hora == 24) || hora <=5){
+//    console.log("Boa madrugada")
+//} else{console.log("Valor invalido")}
+
+
+//const pontosUsuario = 1000
+//if(pontosUsuario >= 1000){
+//    console.log("Usuaário VIP")
+//} else {
+//    console.log("Usuário Normal")
+//}
+
+//Operador ternario
+
+//const nivelUsuario = pontosUsuario >= 1000? "Usuário VIP": "Usuário Normal"
+//console.log (nivelUsuario)
 

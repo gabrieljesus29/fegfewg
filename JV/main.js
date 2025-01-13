@@ -54,7 +54,7 @@
 // Operadores de curto circuito
 
 //console.log(true && false)
-console.log('Tiago' && 0 && 12)
+//console.log('Tiago' && 0 && 12)
 
 //FALSY false
 //0
@@ -110,3 +110,41 @@ console.log('Tiago' && 0 && 12)
 //const nivelUsuario = pontosUsuario >= 1000? "Usuário VIP": "Usuário Normal"
 //console.log (nivelUsuario)
 
+
+
+// const dia_Semana = 1
+// switch(dia_Semana){
+//     case 0:
+//         console.log("Domingo")
+//         break;
+//     case 1:
+//         console.log("Segunda")
+//         break;
+//     case 2:
+//         console.log("Terça")
+//         break;
+//     case 3:
+//         console.log("Quarta")
+//         break;
+//     case 4:
+//         console.log("Quinta")
+//         break;
+//      case 5:
+//         console.log("Sexta")
+//         break;
+//      case 6:
+//         console.log("Sabado")
+//         break;
+//     default:
+//         console.log("Valor Invalido")
+// }
+
+
+let a = 'C'
+let b = 'A'
+let c = 'B'
+
+a = b
+b = c
+c = a
+console.log(a,b,c)

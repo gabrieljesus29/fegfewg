@@ -179,10 +179,116 @@
 // console.log(primeiro_Numero)
 
 
-const nomes = ["Cesar", "Yan", "Pedro", "Guilherme", "Gabriel"]
-const sobrenomes = ["Figueiredo", "silva", "Vitor", "Vinicius", "Jesus"]
+// const nomes = ["Cesar", "Yan", "Pedro", "Guilherme", "Gabriel"]
+// const sobrenomes = ["Figueiredo", "silva", "Vitor", "Vinicius", "Jesus"]
 
-let [nome] = nomes
-let [, sobrenome] = sobrenomes
+// let [nome] = nomes
+// let [, sobrenome] = sobrenomes
 
-console.log(nome + sobrenome )
+// console.log(nome + sobrenome )
+
+                                               // Estrutura de repetição, FOR
+
+    // for(let i = 450; i>350; i = i - 1){
+    //     console.log(i)
+    // }
+
+
+
+    // for(let i = 1; i<= 20; i++){
+    //     if(i % 2 === 0){
+    //        console.log(i) 
+    //     }
+        
+    // }
+
+
+
+    // const frutas = ["maçã", "Pera", "Uva"]
+    // for(let i = 0; i< frutas.length; i++){
+    //        console.log(frutas[i]) 
+    //     }
+        
+
+// const elementos = [
+//     {tag: 'p', texto: 'Frase 1'},
+//     {tag: 'div', texto: 'Frase 2'},
+//     {tag: 'footer', texto: 'Frase 3'},
+//     {tag: 'section', texto: 'Frase 4'}    
+//     ]
+
+// const container = document.querySelector('.container')
+// const div = document.createElement('div')
+
+// for (let i = 0; i< elementos.length; i++){
+// //    console.log(elementos[i].tag)
+//     let tag = elementos[i].tag
+//     let texto = elementos[i].texto
+// //  let {tag, texto} = elementos[i]
+//     let tagCriada = document.createElement(tag)
+//     tagCriada.innerHTML = texto
+//     div.appendChild(tagCriada)
+
+//     }
+// container.appendChild(div)
+
+
+
+// const frutas = ["Maçã", "uva", "pera"]
+// for (let i in frutas){
+//     console.log(frutas[i])
+// }
+
+// const pessoa = {
+//     nome: "Cesar",
+//     sobrenome: "Gordo",
+//     idade: 26
+// }
+
+// for (let i in pessoa){
+//     console.log(pessoa[i])
+// }
+
+// const nome = ["luiz", "otavio", "henrique"]
+
+// nomes.forEach(function(Valor, indice){
+//     console.log(Valor, indice)
+// })
+
+// for(let i of nome){
+//     console.log(i)
+// }
+
+
+//                While
+
+// let i = 0;
+// while(i<10){
+//     console.log(i)
+//     i = i + 1;
+// }
+
+// function aleatorio(min, max){
+//     const resultado = Math.random() * (max - min) + min
+//     return Math.floor(resultado)
+// }
+
+// let numAleatorio = aleatorio(1, 50)
+// while(numAleatorio !== 10){
+//     numAleatorio = aleatorio(1, 50)
+
+//     if(numAleatorio === 2){
+//         console.log("CHEGUEI NO 2 E VOU PARAR")
+//         continue
+//     }
+
+//     console.log(numAleatorio)
+
+// }
+
+
+// Quest 1
+
+// Quest 2
+
+// Quest 3

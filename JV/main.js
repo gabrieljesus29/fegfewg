@@ -292,3 +292,77 @@
 // Quest 2
 
 // Quest 3
+
+
+
+//              Atividade 
+
+const inputTarefa = document.querySelector('.input-tarefa')
+const btnTarefa = document.querySelector('.btn-tarefa')
+const tarefas = document.querySelector('.tarefas')
+//              FUNCTION
+function limpaInput(){
+    inputTarefa.value = ''
+}
+
+function criaLi(){
+    const li = document.createElement('li')
+    return li
+}
+
+function criaBotaoApagar(li){
+    li.innerHTML += ' '
+    const botaoApagar = document.createElement('button')
+    botaoApagar.innerText = 'Apagar'
+    //botaoApagar.classList.add('Apagar')
+    botaoApagar.setAttribute('class', 'apagar')
+    li.appendChild(botaoApagar)
+}
+
+function criaTarefa(textoInput){
+    const li = criaLi()
+    li.innerHTML = textoInput
+    tarefas.appendChild(li)
+    limpaInput()
+    criaBotaoApagar(li)
+}
+
+function salvartarefas(){
+    const liTarefas = tarefas.querySelectorAll('li')
+
+    const listaDetarefas = []
+
+    for (let tarefa of liTarefas){
+        let tarefaTexto = tarefa.innerText
+        tarefaTexto = tarefaTexto.replace('Apagar', '')
+        //console.log(tarefaTexto)
+        listaDetarefas.push(tarefaTexto)
+    }
+
+    const tarefasJSON = JSON.stringify(listaDetarefas)
+    console.log(tarefasJSON)
+}
+
+
+
+inputTarefa.addEventListener('keypress', function(e){
+    if(e.keyCode === 13){
+        if(inputTarefa.value ==='')return
+        criaTarefa(inputTarefa.value)
+        limpaInput()
+    }   
+})
+
+btnTarefa.addEventListener('click', function(e){
+    if(inputTarefa.value ==='')return
+    console.log(inputTarefa.value)
+    criaTarefa(inputTarefa.value)
+    limpaInput()
+})
+
+document.addEventListener('click', function(e){
+    const el = e.target
+    if(el.classList.contains('apagar')){
+        el.parentElement.remove()
+    }
+})

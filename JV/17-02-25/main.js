@@ -63,63 +63,60 @@
 // carr01.velocidade = 1500;
 // console.log(carr01)
 
+// class DispositivoEletronico{
+//     constructor(nome){
+//         this.nome = nome
+//         this.ligado = false
+//     }
 
+//     ligar(){
+//         if(this.ligado){
+//             console.log('Dispositivo já ligado')
+//             return
+//         }
+//         this.ligado = true
 
+//     }
 
-class DispositivoEletronico{
-    constructor(nome){
-        this.nome = nome
-        this.ligado = false
-    }
+//     desligar(){
+//         if(!this.ligado){
+//             console.log('Dispositivo já desligado')
+//             return
+//         }
+//         this.ligado = false
 
-    ligar(){
-        if(this.ligado){
-            console.log('Dispositivo já ligado')
-            return
-        }
-        this.ligado = true
-
-    }
-
-    desligar(){
-        if(!this.ligado){
-            console.log('Dispositivo já desligado')
-            return
-        }
-        this.ligado = false
-
-    }
-}
+//     }
+// }
 
 // const celular = new DispositivoEletronico('Celular')
 // celular.ligar()
 // celular.desligar()
 // celular.desligar()
 
-class Smartphone extends DispositivoEletronico{
-    constructor(nome, cor){
-        super(nome)
-        this.cor = cor
-    }
+// class Smartphone extends DispositivoEletronico{
+//     constructor(nome, cor){
+//         super(nome)
+//         this.cor = cor
+//     }
 
-    ligar(){
-        console.log('Alterei o metodo ligar do PAI')
-    }
+//     ligar(){
+//         console.log('Alterei o metodo ligar do PAI')
+//     }
 
-    falaOi(){
-        console.log('Estou falando Oi!')
-    }
+//     falaOi(){
+//         console.log('Estou falando Oi!')
+//     }
 
-    static fazerRecall(){
-        console.log('Estou fazendo o RECALL')
-    }
+//     static fazerRecall(){
+//         console.log('Estou fazendo o RECALL')
+//     }
 
-}
+// }
 
-const iphone = new Smartphone('Iphone 16 pro max', 'rosa')
+// const iphone = new Smartphone('Iphone 16 pro max', 'rosa')
 // iphone.ligar()
 // console.log(iphone)
-Smartphone.fazerRecall()
+//Smartphone.fazerRecall()
 
 
 
@@ -131,3 +128,5 @@ Smartphone.fazerRecall()
 //         this.temwifi=false
 //     }
 // }
+
+

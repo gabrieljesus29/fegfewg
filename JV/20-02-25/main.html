@@ -28,3 +28,31 @@
 </body>
 <script src="main.js"></script>
 </html>
+
+
+
+
+
+<!-- Login -->
+<div id="login-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeLogin()">&times;</span>
+        <h2>Login</h2>
+        <input type="text" id="login-user" placeholder="Usuário">
+        <input type="password" id="login-pass" placeholder="Senha">
+        <button onclick="login()">Entrar</button>
+        <p>Não tem uma conta? <a href="#" onclick="openRegister()">Cadastre-se</a></p>
+    </div>
+</div>
+
+<!-- Tela de Cadastro -->
+<div id="register-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeRegister()">&times;</span>
+        <h2>Cadastro</h2>
+        <input type="text" id="register-user" placeholder="Usuário">
+        <input type="email" id="register-email" placeholder="E-mail">
+        <input type="password" id="register-pass" placeholder="Senha">
+        <button onclick="register()">Cadastrar</button>
+    </div>
+</div>

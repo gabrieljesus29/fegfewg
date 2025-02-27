@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime World</title>
+    <link rel="stylesheet" href="atv27.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Animedays</h1>
+        <nav>
+            <ul>
+                <li><a href="https://animedays.org/">Início</a></li>
+                <li><a href="https://animedays.org/anime/">Animes</a></li>
+                <li><a href="https://animedays.org/calendario/">Calendario</a></li>
+                <li><a href="https://animedays.org/favoritos/">Favoitos</a></li>
+                <li><a href="#" onclick="openLogin()">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section class="gallery">
+        <img src="https://giffiles.alphacoders.com/916/91695.gif" alt="Anime 1">
+        <img src="https://media.tenor.com/uXaENxgIdG4AAAAC/one-piece-gear-5.gif" alt="Anime 2">
+        <img src="https://giffiles.alphacoders.com/128/12870.gif" alt="Anime 3">
+    </section>
+
+    <!-- Login -->
+
+    <div>
+        <div>
+            <span></span>
+            <h2>Login</h2>
+            <input type="text" id="login-user" placeholder="Usuário">
+            <input type="password" id="login-pass" placeholder="Senha">
+            <button type="submit">Entrar</button>
+            <p>Não tem uma conta? <a href="#" > Cadastre-se</a> </p>
+        </div>
+    </div>
+
+    <!-- Cadastro -->
+     <div>
+        <div>
+            <h2>Cadastro</h2>
+        <input type="text" id="register-user" placeholder="Usuário">
+        <input type="email" id="register-email" placeholder="E-mail">
+        <input type="password" id="register-pass" placeholder="Senha">
+        <button type="submit">Cadastrar</button>
+        </div>
+     </div>
+
+     <script src="script.js"></script>
+</body>
+</html>

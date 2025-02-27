@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="atv.css">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Cadastro</h2>
+        <form id="cadastroForm">
+            <a>Nome Completo:</a>
+            <input type="text" id="nome" required>
+    
+            <a>Data de Nascimento:</a>
+            <input type="date" id="dataNascimento" required>
+    
+            <a>Email:</a>
+            <input type="email" id="email" required>
+    
+            <a>Senha:</a>
+            <input type="password" id="senha" required>
+    
+            <a>Confirme a Senha:</a>
+            <input type="password" id="confirmarSenha" required>
+            <p id="erroSenha" class="error"></p>
+    
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+    
+</body>
+<script src="atv.js"></script>
+</html>
